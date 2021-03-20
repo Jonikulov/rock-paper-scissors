@@ -1,11 +1,14 @@
 # ROCK, PAPER, SCISSORS
 import random
 
-elements = ['ROCK', 'PAPER', 'SCISSORS']
 print('ROCK, PAPER, SCISSORS')
-win = loss = tie = 0
 
-while True:
+# These variables keep track of the number of wins, losses, and ties.
+win = 0
+losse = 0
+tie = 0
+
+while True: # The main game loop.
     result = f"{win} Wins, {loss} Losses, {tie} Ties \n" 
     move = f"Enter your move: (r)ock, (p)aper, (s)cissors or (q)uit"
     print(result, move)
