@@ -2,10 +2,11 @@
 import random
 
 print('ROCK, PAPER, SCISSORS')
+elements = ['ROCK', 'PAPER', 'SCISSORS']
 
 # These variables keep track of the number of wins, losses, and ties.
 win = 0
-losse = 0
+loss = 0   
 tie = 0
 
 while True: # The main game loop.
@@ -61,3 +62,4 @@ while True: # The main game loop.
         break
     else:
         print('Please enter only the characters mentioned.')
+        
